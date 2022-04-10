@@ -1,3 +1,5 @@
+//Este programa recebe um número inteiro e imprime este valor
+
 #include <stdio.h>
 
 int main()
