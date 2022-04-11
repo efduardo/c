@@ -4,11 +4,11 @@
 
 int main()
 {
-    int inteiro;
+    int entrada;
     printf("Digite um numero inteiro: ");
-    scanf("%d", &inteiro);
+    scanf("%d", &entrada);
 
-    printf("\nO numero digitado foi %d", inteiro);
+    printf("\nO numero digitado foi %d", entrada);
 
     return 0;
 }
