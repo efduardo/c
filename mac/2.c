@@ -5,15 +5,15 @@
 
 int main(void)
 {
-    int a, b, soma;
+    int entrada1, entrada2, soma;
 
     printf("Digite um número inteiro: ");
-    scanf("%d", &a);
+    scanf("%d", &entrada1);
 
     printf("Digite outro numero inteiro: ");
-    scanf("%d", &b);
+    scanf("%d", &entrada2);
 
-    soma = a + b;
+    soma = entrada1 + entrada2;
 
     printf("A soma dos números digitados é %d", soma);
 }
