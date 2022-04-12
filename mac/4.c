@@ -7,6 +7,7 @@
 int main()
 {
     int entrada1, entrada2, inteirodadivisao ;
+    
     printf("Digite o numero total de maças: ");
     scanf("%d", &entrada1);
 
