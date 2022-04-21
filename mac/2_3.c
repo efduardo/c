@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(void)
+int main()
 {
 	int entrada1, entrada2, quadradodadiferenca;
 
