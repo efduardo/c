@@ -8,7 +8,7 @@ int main()
 {
     int entrada1, entrada2, inteirodadivisao ;
     
-    printf("Digite o numero total de maças: ");
+    printf("Digite o numero total de macas: ");
     scanf("%d", &entrada1);
 
     printf("Digite o numero de alunos: ");
@@ -18,7 +18,7 @@ int main()
 
     while((entrada1 >= 0) && (entrada2 > 0))
     {
-        printf("O numero de maças a serem entregues a cada aluno e %d", inteirodadivisao);
+        printf("O numero de macas a serem entregues a cada aluno e %d", inteirodadivisao);
         break;
     }
 
