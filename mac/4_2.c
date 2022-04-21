@@ -4,7 +4,7 @@
 
 int main()
 {
-    int entrada1, entrada2, um = 1, zero = 0;
+    int entrada1, entrada2;
     
     printf("Digite um numero inteiro: ");
     scanf("%d", &entrada1);
@@ -13,9 +13,9 @@ int main()
     scanf("%d", &entrada2);
     
     if (entrada1 < entrada2)
-        printf("%d", um);
+        printf("1");
     else
-        printf("%d", zero);
+        printf("0");
     
     return 0;
 }
