@@ -18,7 +18,7 @@ int main()
     
     while((entrada1 >= 0) && (entrada2 > 0))
     {
-        printf("A quantia de maçãs a serem entregues na secretaria é %d", restodadivisao);
+        printf("A quantia de macas a serem entregues na secretaria e %d", restodadivisao);
         break;
     }
     return 0;
