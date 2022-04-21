@@ -14,7 +14,7 @@ int main()
     total = 0;
     i = 0;
 
-    while((total <= n) && (n >= 0))
+    while(total <= n)
     {
         i += 1;
         total += i;
