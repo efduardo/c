@@ -1,7 +1,6 @@
 //Este é um algoritmo que recebe dois números inteiros como entrada e imprime o maior dentre os dois números.
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
