@@ -7,7 +7,7 @@
 
 int main(void)
 {
-    int ladoa, ladob, ladoc, zero = 0, ladoa2, ladob2, ladoc2, c_ladoa2, c_ladob2, c_ladoc2;
+    int ladoa, ladob, ladoc, ladoa2, ladob2, ladoc2, c_ladoa2, c_ladob2, c_ladoc2;
 
     printf("Digite o valor do primeiro lado: ");
     scanf("%d", &ladoa);
