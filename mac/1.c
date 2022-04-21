@@ -9,7 +9,7 @@ int main()
     printf("Digite um numero inteiro: ");
     scanf("%d", &entrada);
 
-    printf("\nO numero digitado foi %d", entrada);
+    printf("O numero digitado foi %d", entrada);
     
     return 0;
 }
