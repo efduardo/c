@@ -15,4 +15,6 @@ int main()
     soma = entrada1 + entrada2;
 
     printf("A soma dos numeros digitados e %d", soma);
+    
+    return 0;
 }
