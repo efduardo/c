@@ -5,10 +5,11 @@
 int main()
 {
     int entrada;
+    
     printf("Digite um numero inteiro: ");
     scanf("%d", &entrada);
 
     printf("\nO numero digitado foi %d", entrada);
-
+    
     return 0;
 }
