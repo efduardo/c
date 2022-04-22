@@ -12,8 +12,7 @@ int main()
     printf("Digite outro numero inteiro: ");
     scanf("%d", &variavel2);
     
-    printf("%d ", variavel2);
-    printf("%d", variavel1);
+    printf("%d %d", variavel2, variavel1);
     scanf("%d", auxiliar);
     
     return 0;
