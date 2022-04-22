@@ -1,7 +1,6 @@
 //Este é um programa que recebe 3 números inteiros e os imprime em ordem decrescente.
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
