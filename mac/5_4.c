@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(void)
+int main()
 {
     int ladoa, ladob, ladoc, ladoa2, ladob2, ladoc2, c_ladoa2, c_ladob2, c_ladoc2;
 
@@ -17,16 +17,17 @@ int main(void)
 
     printf("Digite o valor do terceiro lado: ");
     scanf("%d", &ladoc);
+    
+    ladoa2 = pow(ladoa, 2);
+    ladob2 = pow(ladob, 2);
+    ladoc2 = pow(ladoc, 2);
+    
+    c_ladoa2 = ladob2 + ladoc2;
+    c_ladob2 = ladoa2 + ladoc2;
+    c_ladoc2 = ladoa2 + ladob2;
 
-    while((ladoa > 0) && (ladob > 0) && (ladoc > 0))
+    while ((ladoa > 0) && (ladob > 0) && (ladoc > 0))
     {
-        ladoa2 = pow(ladoa, 2);
-        ladob2 = pow(ladob, 2);
-        ladoc2 = pow(ladoc, 2);
-        c_ladoa2 = ladob2 + ladoc2;
-        c_ladob2 = ladoa2 + ladoc2;
-        c_ladoc2 = ladoa2 + ladob2;
-
         if (ladoa2 == c_ladoa2)
             printf("1 %d", ladoa2);
         if (ladob2 == c_ladob2)
