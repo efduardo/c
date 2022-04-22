@@ -1,11 +1,10 @@
 //Este é um programa que recebe um número inteiro não negativo e verifica se ele é par ou ímpar. Se for par imprime 1, caso contrário 0.
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
-    int entrada, condicaopar, um = 1, zero = 0;
+    int entrada, condicaopar;
 
     printf("Digite um numero inteiro: ");
     scanf("%d", &entrada);
@@ -15,9 +14,9 @@ int main()
     while(entrada >= 0)
     {
         if (condicaopar == 0)
-            printf("%d", um);
+            printf("1");
         else
-            printf("%d", zero);
+            printf("0");
         break;
     }
     
