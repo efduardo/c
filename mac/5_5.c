@@ -6,7 +6,7 @@
 
 int main()
 {
-    int n, total, i, a, sn;
+    int n, total, i, maior, sn;
 
     printf("Digite um numero inteiro: ");
     scanf("%d", &n);
@@ -18,7 +18,7 @@ int main()
     {
         i += 1;
         total += i;
-        a = i - 1;
+        maior = i - 1;
     }
 
     sn = (1 + a)*a/2;
