@@ -21,7 +21,7 @@ int main()
         maior = i - 1;
     }
 
-    sn = (1 + a)*a/2;
+    sn = (1 + maior)*maior/2;
 
     printf("A maior soma dos numeros naturais e %d", sn);
 
