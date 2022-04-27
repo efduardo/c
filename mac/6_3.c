@@ -24,7 +24,7 @@ int main()
         an = 1 + (t - 1)*2;
         sn = (1 + an) * (t / 2);
         printf("A soma dos impares e %d", sn);
-    if (p != n)
+    else
         a += 1;
         t = (n + 1)/2;
         an = 1 + (t - 1)*2;
