@@ -6,7 +6,7 @@ int main()
 {
     int n, i, p, t, an, sn;
 
-    printf("Digite um número inteiro positivo: ");
+    printf("Digite um numero inteiro positivo: ");
     scanf("%d", &n);
 
     i = 1;
@@ -22,7 +22,7 @@ int main()
     an = 0 + (t - 1)*2;
     sn = (0 + an) * (t / 2);
 
-    printf("A soma dos pares é %d", sn);
+    printf("A soma dos pares e %d", sn);
 
     return 0;
 }
