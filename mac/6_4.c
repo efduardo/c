@@ -18,7 +18,7 @@ int main()
         soma += resto;
     }
 
-    unidade = soma%10;
+    unidade = soma % 10;
 
     printf("%d %d", soma, unidade);
 
