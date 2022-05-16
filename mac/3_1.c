@@ -18,7 +18,7 @@ int main()
 
     while ((entrada1 >= 0) && (entrada2 > 0))
     {
-        printf("O numero de macas a serem entregues a cada aluno e %d", inteirodadivisao);
+        printf("O numero de macas a ser entregue a cada aluno e %d", inteirodadivisao);
         break;
     }
 
