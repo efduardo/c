@@ -1,3 +1,5 @@
+//Este programa solicita que o usuário digite 6 valores inteiros representando duas datas e imprime qual delas é a maior ou se são iguais.
+
 #include <stdio.h>
 
 int main()
